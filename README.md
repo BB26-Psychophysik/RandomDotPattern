@@ -334,7 +334,7 @@ Anbei noch einmal eine Zusammenfassung der wesentlichen Schritte:
 * In Octave File-Manager zum Ordnerpfad des Scripts *DotDemo_2019.m* navigieren. Das Script an sich muss aber nicht geöffnet werden.
   Pfad: `home/dj0/Desktop/BB 26 (2019)/Psychophysik/Psychophysic Toolbox [2019]`
 
-* Folgende Schritte **für jeden der acht Kohärenzwert** (0%, 5%, 10%, 15%, 20%, 30%, 40%, 50%) wiederholen, am besten in zufälliger Reihenfolge (z.B. 10%, 30%, 10%, 50%, 0%, 15%, 5%, 20%):
+* Folgende Schritte **für jeden der acht Kohärenzwert** (0%, 5%, 10%, 15%, 20%, 30%, 40%, 50%) wiederholen, am besten in zufälliger Reihenfolge (z.B. 10%, 30%, 20%, 50%, 0%, 15%, 5%, 40%):
 
   1. Im Command Window den Befehl `DotDemo_2019` ausführen
 
