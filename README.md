@@ -14,6 +14,11 @@ Dazu verwenden wir als Stimuli sogenannte **Random Dot Pattern**.  Dies ist ein 
 
 ## 2 Verwendete Software
 
+Bitte laden Sie zunächst die **Image-Datei** (.iso) herunter, welche in **Moodle** bereitgestellt wurde.
+
+
+<br/>
+
 ### 2.1 Oracle VM VirtualBox Manager 
 
 Als Software wird für dieses Psychophysik-Experiment lediglich der *Oracle VM VirtualBox Manager* benötigt 
@@ -60,7 +65,7 @@ Um unser Image nun laden zu können, müssen wir in VirtualBox zunächst eine vi
 
 <br/>
 
-Im nächsten Fenster vergeben wir einen geeigneten Namen für unsere virtuelle Maschine und legen fest, welchen **Typ** (Linux) und **Version** (Debian 64-bit) unser virtuelles Betriebssystem haben soll.
+Im nächsten Fenster vergeben wir einen geeigneten Namen für unsere virtuelle Maschine und legen fest, welchen **Typ** (Linux) und **Version** (Ubuntu 64-bit) unser virtuelles Betriebssystem haben soll.
 Die **Speichergröße** (RAM) wird zunächst auf 2048 MB festgelegt. Je nach verfügbarer Hardware kann diese aber beliebig verkleinert/vergrößert werden.
 Zuletzt setzen wir noch den Punkt **"Festplatte erzeugen"** und drücken den Button **"Erzeugen"**.
 
@@ -104,7 +109,7 @@ Um die virtuelle Maschine zu starten, klicken wir oben rechts auf den Button **"
 
 <br/>
 
-### 2.2 Debian
+### 2.2 Ubuntu
 
 Das virtuelle Betriebssystem wird nun automatisch hochgefahren. Alternativ kann im Bootmenü der Unterpunkt **"live"** ausgewählt werden. 
 
@@ -325,11 +330,13 @@ Gespeichert werden kann die Tabelle dann mit [STR]+[S] oder wie im folgenden Bil
 
 Anbei noch einmal eine Zusammenfassung der wesentlichen Schritte:
 
+* Image-Datei (.iso) in Moodle herunterladen
+
 * Auf eigenem Rechner das Programm *Oracle VM VirtualBox Manager* installieren
 
-* In Virtual Box: virtuelle Maschine erstellen, BB26-Debian-Image (.iso) einladen und starten
+* In Virtual Box: virtuelle Maschine erstellen, Image-datei (.iso) einladen und starten
 
-* In Debian: App "GNU Octave" öffnen
+* In Ubuntu: App "GNU Octave" öffnen
 
 * In Octave File-Manager zum Ordnerpfad des Scripts *DotDemo_2019.m* navigieren. Das Script an sich muss aber nicht geöffnet werden.
   Pfad: `home/dj0/Desktop/BB 26 (2019)/Psychophysik/Psychophysic Toolbox [2019]`
