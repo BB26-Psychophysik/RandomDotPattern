@@ -1,7 +1,5 @@
 # BB26 Psychophysik - Random Dot Pattern
 
-[TOC]
-
 ## 1 Einführung
 
 Die Idee dieses Experimentes ist es, zu testen, wie viele Punkte einer Punktwolke sich in die gleiche Richtung bewegen müssen, damit wir diese Bewegungsrichtung auch wahrnehmen können.
@@ -15,6 +13,11 @@ Dazu verwenden wir als Stimuli sogenannte **Random Dot Pattern**.  Dies ist ein 
 <br/>
 
 ## 2 Verwendete Software
+
+Bitte laden Sie zunächst die **Image-Datei** (.iso) herunter, welche in **Moodle** bereitgestellt wurde.
+
+
+<br/>
 
 ### 2.1 Oracle VM VirtualBox Manager 
 
@@ -50,6 +53,7 @@ Nach dem Download gestaltet sich die **Installation** sehr einfach, die **Vorein
 <img src="src\A_02_VirtualBox_Installation_f.jpg" alt="A_02_VirtualBox_Installation_f" align=center width="450" />
 
 
+<br/>
 
 #### 2.2.3 Erstellen einer Virtuellen Maschine
 
@@ -59,9 +63,9 @@ Um unser Image nun laden zu können, müssen wir in VirtualBox zunächst eine vi
 
 
 
+<br/>
 
-
-Im nächsten Fenster vergeben wir einen geeigneten Namen für unsere virtuelle Maschine und legen fest, welchen **Typ** (Linux) und **Version** (Debian 64-bit) unser virtuelles Betriebssystem haben soll.
+Im nächsten Fenster vergeben wir einen geeigneten Namen für unsere virtuelle Maschine und legen fest, welchen **Typ** (Linux) und **Version** (Ubuntu 64-bit) unser virtuelles Betriebssystem haben soll.
 Die **Speichergröße** (RAM) wird zunächst auf 2048 MB festgelegt. Je nach verfügbarer Hardware kann diese aber beliebig verkleinert/vergrößert werden.
 Zuletzt setzen wir noch den Punkt **"Festplatte erzeugen"** und drücken den Button **"Erzeugen"**.
 
@@ -69,7 +73,7 @@ Zuletzt setzen wir noch den Punkt **"Festplatte erzeugen"** und drücken den But
 
 
 
-
+<br/>
 
 Anschließend müssen wir im nächsten Fenster den **Dateipfad** zu unserem Image angeben.
 Die **Dateigröße** lassen wir auf max. 8,00 GB, auch **Dateityp der Festplatte** und **Art der Speicherung** kann auf den Voreinstellungen belassen werden. Wieder drücken wir auf den Button **"Erzeugen"**.
@@ -78,7 +82,7 @@ Die **Dateigröße** lassen wir auf max. 8,00 GB, auch **Dateityp der Festplatte
 
 
 
-
+<br/>
 
 Damit ist nun unsere virtuelle Maschine fertig. Wenn alles funktioniert hat, sollte die Ansicht ungefähr so ausschauen:
 
@@ -86,7 +90,7 @@ Damit ist nun unsere virtuelle Maschine fertig. Wenn alles funktioniert hat, sol
 
 
 
-
+<br/>
 
 > Falls unter dem Punkt **"Massenspeicher"** bei **"[Optisches Laufwerk]"** immer noch **"leer"** steht, sollte noch einmal unser Image als Abbild ausgewählt werden.
 >
@@ -95,7 +99,7 @@ Damit ist nun unsere virtuelle Maschine fertig. Wenn alles funktioniert hat, sol
 
 
 
-
+<br/>
 
 Um die virtuelle Maschine zu starten, klicken wir oben rechts auf den Button **"Start"**.
 
@@ -105,7 +109,7 @@ Um die virtuelle Maschine zu starten, klicken wir oben rechts auf den Button **"
 
 <br/>
 
-### 2.2 Debian
+### 2.2 Ubuntu
 
 Das virtuelle Betriebssystem wird nun automatisch hochgefahren. Alternativ kann im Bootmenü der Unterpunkt **"live"** ausgewählt werden. 
 
@@ -113,7 +117,7 @@ Das virtuelle Betriebssystem wird nun automatisch hochgefahren. Alternativ kann 
 
 
 
-
+<br/>
 
 Nach kurzer Wartezeit erscheint dann der Desktop. Hier sehen wir, dass bereits ein Ordner **"BB26 (2019)"** verfügbar ist. Darin sind alle relevanten Dateien enthalten. Auch befinden sich hier später Text-Dateien, welche automatisch generiert und in denen alle Experimental-Ergebnisse gespeichert werden.
 
@@ -139,7 +143,7 @@ Um Octave zu starten, gehen wir im **Applications Menu** (links oben) auf den Re
 
 
 
-
+<br/>
 
 Nach dem Start von Octave erscheint die Octave-**Oberfläche**, welche aus mehreren Fenstern besteht:
 
@@ -176,7 +180,7 @@ Der vollständige Pfad lautet:
 
 
 
-
+<br/>
 
 Nun sollten wir im Ordner des Scripts *DotDemo_2019.m* angelangt sein. Um es zu starten, muss lediglich folgender **Befehl** im Octave Command Window  eingegeben und mit [ENTER] bestätigt werden:
 
@@ -184,11 +188,13 @@ Nun sollten wir im Ordner des Scripts *DotDemo_2019.m* angelangt sein. Um es zu 
 DotDemo_2019
 ```
 
+<br/>
+
 <img src="src\D_03_DotDemo-Command.jpg" alt="09_DotDemo-Command" align=center width="650"  />
 
 
 
-
+<br/>
 
 Vor Beginn der Präsentation der Random Dot Pattern werden mehrere Informationen der Versuchsperson im Command Window abgefragt. Dies dient später zur Generierung der Ergebnis-Textdateien.
 
@@ -219,7 +225,7 @@ Jeder Eingabe ist mit der Taste [ENTER] zu bestätigen.
 
 
 
-
+<br/>
 
 Nun wird eine **Bestätigung** (`y` = yes, `n` = no) der vorher getätigten Eingaben verlangt. Zudem wird der Dateiname angegeben, in dem die Ergebnisse automatisch als Excel-Datei abgespeichert werden.
 Falls alles richtig eingegeben wurde, drücken wir im Command Window die Taste `y` und bestätigen wieder mit [ENTER]. Damit startet die Dot Demo.
@@ -228,7 +234,7 @@ Falls alles richtig eingegeben wurde, drücken wir im Command Window die Taste `
 
 
 
-
+<br/>
 
 Die Stimulus-Präsentation sollte etwa wie im folgenden Fenster aussehen. Dabei sind folgende **Bestandteile des Stimulus** zu erkennen:
 
@@ -239,7 +245,7 @@ Die Stimulus-Präsentation sollte etwa wie im folgenden Fenster aussehen. Dabei 
 
 <img src="src\D_09_DotDemo_durchführen.jpg" alt="14_DotDemo_durchführen" align=center width="650"  />
 
-
+<br/>
 
 Nach jedem Trial stoppt die Anzeige und es wird eine **Eingabe der Testperson** erwartet:
 
@@ -252,7 +258,7 @@ Dies wiederholen wir solange, bis alle Trials für einen einzelnen Kohärenzwert
 
 <img src="src\D_10_nach_DotDemo_CommandWindow.jpg" alt="14_nach_DotDemo_CommandWindow" align=center width="650"  />
 
-
+<br/>
 
 Nach Durchführen aller Trials sollten wir folgende **Ergebnismatrix** im Command Window angezeigt bekommen. Diese ist folgendermaßen aufgebaut:
 
@@ -290,12 +296,15 @@ Die Ergebnisse lassen sich nach Abschluss aller Experimente in einem Office-Prog
 <img src="src\E_03_Ergebnismatrix_einfügen.jpg" alt="E_03_Ergebnismatrix_einfügen" align=center width="650" />
 
 
+<br/>
 
 Es sollten nun die Ergebnisse in drei Spalten aufgeteilt worden sein. Der Vollständigkeit halber wurden im folgenden Bild die Tabellenspalten mit Bezeichnungen versehen.
 
 <img src="src\E_04_Interpretation_a.jpg" alt="E_04_Interpretation_a" align=center width="650"  />
 
 
+
+<br/>
 
 Gespeichert werden kann die Tabelle dann mit [STR]+[S] oder wie im folgenden Bild per Menü:
 
@@ -321,16 +330,18 @@ Gespeichert werden kann die Tabelle dann mit [STR]+[S] oder wie im folgenden Bil
 
 Anbei noch einmal eine Zusammenfassung der wesentlichen Schritte:
 
+* Image-Datei (.iso) in Moodle herunterladen
+
 * Auf eigenem Rechner das Programm *Oracle VM VirtualBox Manager* installieren
 
-* In Virtual Box: virtuelle Maschine erstellen, BB26-Debian-Image (.iso) einladen und starten
+* In Virtual Box: virtuelle Maschine erstellen, Image-datei (.iso) einladen und starten
 
-* In Debian: App "GNU Octave" öffnen
+* In Ubuntu: App "GNU Octave" öffnen
 
 * In Octave File-Manager zum Ordnerpfad des Scripts *DotDemo_2019.m* navigieren. Das Script an sich muss aber nicht geöffnet werden.
   Pfad: `home/dj0/Desktop/BB 26 (2019)/Psychophysik/Psychophysic Toolbox [2019]`
 
-* Folgende Schritte **für jeden der acht Kohärenzwert** (0%, 5%, 10%, 15%, 20%, 30%, 40%, 50%) wiederholen, am besten in zufälliger Reihenfolge (z.B. 10%, 30%, 10%, 50%, 0%, 15%, 5%, 20%):
+* Folgende Schritte **für jeden der acht Kohärenzwert** (0%, 5%, 10%, 15%, 20%, 30%, 40%, 50%) wiederholen, am besten in zufälliger Reihenfolge (z.B. 10%, 30%, 20%, 50%, 0%, 15%, 5%, 40%):
 
   1. Im Command Window den Befehl `DotDemo_2019` ausführen
 
