@@ -4,7 +4,7 @@
 
 Die Idee dieses Experimentes ist es, zu testen, wie viele Punkte einer Punktwolke sich in die gleiche Richtung bewegen müssen, damit wir diese Bewegungsrichtung auch wahrnehmen können.
 
-Dazu verwenden wir als Stimuli sogenannte **Random Dot Pattern**.  Dies ist ein zufälliges Muster von Punkten, die sich auf einem schwarzen Hintergrund mit konstanter Geschwindigkeit in jeweils eine Richtung bewegen. Ein bestimmter Anteil der Punkte bewegt sich dabei in identischer Richtung. Diese Punkte bezeichnen wir im Folgenden als *kohärent*. 
+Dazu verwenden wir als Stimuli sogenannte **Random Dot Pattern**.  Dies sind zufällige Muster von Punkten, welche sich auf einem schwarzen Hintergrund mit konstanter Geschwindigkeit in jeweils eine Richtung bewegen. Ein bestimmter Anteil der Punkte bewegt sich dabei in identischer Richtung. Diese Punkte bezeichnen wir im Folgenden als *kohärent*. 
 
 <img src="src\Random_Dot_Pattern.gif" alt="Random_Dot_Pattern" align=center width="500" />
 
@@ -14,16 +14,16 @@ Dazu verwenden wir als Stimuli sogenannte **Random Dot Pattern**.  Dies ist ein 
 
 ## 2 Verwendete Software
 
-Bitte laden Sie zunächst die **Image-Datei** (.iso) herunter, welche in **Moodle** bereitgestellt wurde.
-
+Bitte laden Sie zunächst die **Image-Datei** (.iso) herunter, welche von den BB26-Betreuern bereitgestellt wurde.
 
 <br/>
 
 ### 2.1 Oracle VM VirtualBox Manager 
 
 Als Software wird für dieses Psychophysik-Experiment lediglich der *Oracle VM VirtualBox Manager* benötigt 
+
 - im Folgenden als *VirtualBox* bezeichnet. 
-Dies ist ein praktisches Open Source-Tool, mit dem weitere Betriebssysteme in einer virtuellen Umgebung auf dem PC geladen werden können. So lässt sich auch unser bereitgestelltes **Image** (.iso) verwenden, in welchem bereits alle notwendigen Treiber & Software für die BB26-Versuche enthalten sind.
+  Dies ist ein praktisches Open Source-Tool, mit dem weitere Betriebssysteme in einer virtuellen Umgebung auf dem PC geladen werden können. So lässt sich auch unser bereitgestelltes **Image** (.iso) verwenden, in welchem bereits alle notwendigen Treiber & Software für die BB26-Versuche enthalten sind.
 
 
 
@@ -65,8 +65,8 @@ Um unser Image nun laden zu können, müssen wir in VirtualBox zunächst eine vi
 
 <br/>
 
-Im nächsten Fenster vergeben wir einen geeigneten Namen für unsere virtuelle Maschine und legen fest, welchen **Typ** (Linux) und **Version** (Ubuntu 64-bit) unser virtuelles Betriebssystem haben soll.
-Die **Speichergröße** (RAM) wird zunächst auf 2048 MB festgelegt. Je nach verfügbarer Hardware kann diese aber beliebig verkleinert/vergrößert werden.
+Im nächsten Fenster vergeben wir einen geeigneten Namen und Ordner für unsere virtuelle Maschine und legen fest, welchen **Typ** (Linux) und **Version** (Ubuntu 64-bit) unser virtuelles Betriebssystem haben soll.
+Die **Speichergröße** (RAM) wird zunächst auf 1024 MB festgelegt. Je nach verfügbarer Hardware kann diese aber beliebig verkleinert oder vergrößert werden.
 Zuletzt setzen wir noch den Punkt **"Festplatte erzeugen"** und drücken den Button **"Erzeugen"**.
 
 <img src="src\B_02_VM_erzeugen.jpg" alt="B_02_VM_erzeugen" align=center width="600" />
@@ -76,7 +76,7 @@ Zuletzt setzen wir noch den Punkt **"Festplatte erzeugen"** und drücken den But
 <br/>
 
 Anschließend müssen wir im nächsten Fenster den **Dateipfad** zu unserem Image angeben.
-Die **Dateigröße** lassen wir auf max. 8,00 GB, auch **Dateityp der Festplatte** und **Art der Speicherung** kann auf den Voreinstellungen belassen werden. Wieder drücken wir auf den Button **"Erzeugen"**.
+Die **Dateigröße** können wir auf den Voreinstellungen von max. 10,00 GB lassen. Je nach verfügbarem Festplatten-Speicherplatz kann diese aber auch kleiner festgelegt werden. Auch **Dateityp der Festplatte** und **Art der Speicherung** kann auf den Voreinstellungen belassen werden. Wieder drücken wir auf den Button **"Erzeugen"**.
 
 <img src="src\B_03_VirtuelleFestplatte.jpg" alt="B_03_VirtuelleFestplatte" align=center width="600" />
 
@@ -92,8 +92,7 @@ Damit ist nun unsere virtuelle Maschine fertig. Wenn alles funktioniert hat, sol
 
 <br/>
 
-> Falls unter dem Punkt **"Massenspeicher"** bei **"[Optisches Laufwerk]"** immer noch **"leer"** steht, sollte noch einmal unser Image als Abbild ausgewählt werden.
->
+> Falls unter **"Massenspeicher"** bei **"[Optisches Laufwerk]"** immer noch **"leer"** steht, sollte noch einmal unser Image (.iso-Datei) als Abbild ausgewählt werden.
 
 <img src="src\B_04_Image_laden_b.jpg" alt="B_04_Image_laden_b" align=center width="600" />
 
@@ -119,15 +118,25 @@ Das virtuelle Betriebssystem wird nun automatisch hochgefahren. Alternativ kann 
 
 <br/>
 
-Nach kurzer Wartezeit erscheint dann der Desktop. Hier sehen wir, dass bereits ein Ordner **"BB26 (2019)"** verfügbar ist. Darin sind alle relevanten Dateien enthalten. Auch befinden sich hier später Text-Dateien, welche automatisch generiert und in denen alle Experimental-Ergebnisse gespeichert werden.
+Während des Hochfahrens können wir das kleine **Ausgabe-Fenster maximieren** (rechts oben, mittlerer Button). Sollte die Anzeige immer noch zu klein sein, kann im Reiter *Anzeige* entweder *Skalierter Modus* oder *Vollbildmodus* ausgewählt werden, um die Anzeige zu vergrößern.
+
+<img src="src\B_06_Skalierte_Ansicht.jpg" alt="B_06_Skalierte_Ansicht" align=center width="650" />
+
+<br/>
+
+Nun sollte man sich als Benutzer einloggen. Entsprechende **Login**-Informationen werden von den BB26-Betreuern bekanntgegeben.
+
+<img src="src\C_00_Login.jpg" alt="C_00_Login" align=center width="650" />
+
+
+
+<br/> 
+
+Nach kurzer Wartezeit erscheint dann der Desktop. Hier können wir doppelt auf den **Ordner Home** klicken und darin den Unter-Ordner **octave** öffnen. Hier sind alle für unser Experiment relevanten Dateien enthalten. Auch befinden sich hier später Text-Dateien, welche automatisch generiert werden und in denen die Experimental-Ergebnisse gespeichert sind.
 
 <img src="src\C_01_Desktop.jpg" alt="C_01_Desktop" align=center width="650"  />
 
 <img src="src\C_02_BB26-Folder.jpg" alt="C_02_BB26-Folder" align=center width="650"  />
-
-<img src="src\C_03_Psychophysik-Folder.jpg" alt="C_03_Psychophysik-Folder" align=center width="650"  />
-
-<img src="src\C_04_Psychophysik[2020]-Folder.jpg" alt="C_04_Psychophysik[2020]-Folder" align=center width="650"  />
 
 
 
@@ -137,7 +146,7 @@ Nach kurzer Wartezeit erscheint dann der Desktop. Hier sehen wir, dass bereits e
 
 Um die bewegten visuellen Stimuli zu erstellen, benutzen wir in diesem Experiment die Analysesoftware *Octave*. Wir müssen zum Glück nicht alles von Hand neu programmieren, sondern können auf bereits vorgeschriebene Funktionen und Funktionen der *Psychtoolbox* (www.psychtoolbox.org) zurückgreifen, welche ebenfalls bereits in unserem BB26-Image enthalten sind.
 
-Um Octave zu starten, gehen wir im **Applications Menu** (links oben) auf den Reiter **Education** und klicken auf die **App** *GNU Octave*.
+Um Octave zu starten, klicken wir im Desktop auf die **App** *GNU Octave*.
 
 <img src="src\D_00_Octave_starten.jpg" alt="D_00_Octave_starten" align=center width="650"  />
 
@@ -145,7 +154,7 @@ Um Octave zu starten, gehen wir im **Applications Menu** (links oben) auf den Re
 
 <br/>
 
-Nach dem Start von Octave erscheint die Octave-**Oberfläche**, welche aus mehreren Fenstern besteht:
+Nach dem Start von Octave erscheint die **Octave-Oberfläche**, welche aus mehreren Fenstern besteht:
 
 - *Command Window*: das größte, schwarz hinterlegte Feld in der Mitte; 
   dieses dient einerseits als Eingabefenster, um Befehle, Funktionen und Skripte auszuführen; andererseits werden deren Ergebnisse in diesem Fenster auch ausgegeben. 
@@ -162,30 +171,22 @@ Nach dem Start von Octave erscheint die Octave-**Oberfläche**, welche aus mehre
 
 ## 3 Experiment
 
-In diesem Tutorial werden wir im Wesentlichen nur eine einzige Funktion benötigen, die bereits als selbstgeschriebenes Script (*DotDemo_2019.m*) im BB26-Ordner liegt. Dieses Script muss <u>nicht</u> geöffnet werden. Wir müssen lediglich im Octave File Browser (links) zu dessen Ordnerpfad navigieren, wie im Folgenden dargestellt wird.
+In diesem Tutorial werden wir im Wesentlichen nur eine einzige Funktion benötigen, die bereits als selbstgeschriebenes Script (*DotDemo_2020.m*) im Ordner *octave* liegt. Dieses Script muss <u>nicht</u> geöffnet werden. Wir müssen lediglich im Octave File Browser (links) zu dessen Ordnerpfad navigieren, wie im Folgenden dargestellt wird. Der vollständige Pfad lautet:
+`home/dj0/octave`
 
 > Sollte das Skript dennoch geöffnet werden, landet man im Editor-Fenster. 
 > In diesem Fall wieder auf den Reiter "Command Window" (Mitte unten) drücken.
 
-Der vollständige Pfad lautet:
-`home/dj0/Desktop/BB 26 (2019)/Psychophysik/Psychophysic Toolbox [2019]`
-
 <img src="src\D_02_FileBrowser_a.jpg" alt="08_FileBrowser_a" align=center width="650"  />
-
-<img src="src\D_02_FileBrowser_b.jpg" alt="08_FileBrowser_b" align=center width="650"  />
-
-<img src="src\D_02_FileBrowser_c.jpg" alt="08_FileBrowser_c" align=center width="650"  />
-
-<img src="src\D_02_FileBrowser_d.jpg" alt="08_FileBrowser_d" align=center width="650"  />
 
 
 
 <br/>
 
-Nun sollten wir im Ordner des Scripts *DotDemo_2019.m* angelangt sein. Um es zu starten, muss lediglich folgender **Befehl** im Octave Command Window  eingegeben und mit [ENTER] bestätigt werden:
+Nun sollten wir im Ordner des Scripts *DotDemo_2020.m* angelangt sein. Um es zu starten, muss lediglich folgender **Befehl** im Octave Command Window  eingegeben und mit [ENTER] bestätigt werden:
 
 ```octave
-DotDemo_2019
+DotDemo_2020
 ```
 
 <br/>
@@ -196,12 +197,12 @@ DotDemo_2019
 
 <br/>
 
-Vor Beginn der Präsentation der Random Dot Pattern werden mehrere Informationen der Versuchsperson im Command Window abgefragt. Dies dient später zur Generierung der Ergebnis-Textdateien.
+Vor Beginn der Präsentation der Random Dot Pattern werden mehrere Informationen der Versuchsperson im Command Window abgefragt. Diese werden ausschließlich dafür verwendet, um später automatisch die Ergebnis-Textdateien zu generieren und zu benennen.
 
 * *Gruppe*
-  Hier wird die Gruppennummer angegeben, z.B. `1234`.
+  Hier wird die Gruppennummer angegeben, z.B. `1`. Falls im Vorfeld keine Gruppennummern vergeben wurden, kann hier eine beliebige Nummer angegeben werden.
 * *Name*
-  Hier wird der Name des Teilnehmers angegeben, z.B. `ManfredMustermann`.
+  Hier wird der Name des Teilnehmers angegeben, z.B. `ErikaMustermann` oder `MaxMustermann`. 
 * *Kohärenzwert*
   Hier wird die relative Kohärenz der Bewegungsrichtung aller Dots als Dezimalzahl angegeben.
   Dieser Wert gibt an, wie groß der Anteil aller Punkte mit identischer Bewegungsrichtung ist. 
@@ -211,7 +212,7 @@ Vor Beginn der Präsentation der Random Dot Pattern werden mehrere Informationen
   Beispiel 2: im Falle von 50% Kohärenz bewegt sich nur die Hälfte aller Punkte in dieselbe Richtung, die restlichen 50% nehmen zufällige Bewegungsrichtungen an. 
   Als Kohärenzwert wird der Wert `0.5` angegeben.
 * *Trial-Anzahl*
-  Hier wird die Anzahl der Einzelmessungen (Trial) angegeben, z.B. `20`. 
+  Hier wird die Anzahl der Einzelmessungen (Trial) angegeben. Pro Kohärenzwert geben wir eine Anzahl von `20` Trials vor. 
 
 Jeder Eingabe ist mit der Taste [ENTER] zu bestätigen.
 
@@ -252,9 +253,9 @@ Nach jedem Trial stoppt die Anzeige und es wird eine **Eingabe der Testperson** 
 - Wird eine Bewegung zum grünen Punkt hin wahrgenommen, drücken wir die Taste `g`
 - Wird eine Bewegung zum blauen Punkt hin wahrgenommen, drücken wir die Taste `b`
 
-Dies wiederholen wir solange, bis alle Trials für einen einzelnen Kohärenzwert (z.B. 0.1) durchgelaufen sind.
+Dies wiederholen wir solange, bis alle Trials für einen einzelnen Kohärenzwert (z.B. 0.1) durchgelaufen sind. 
 
-> Beachte: Octave limitiert die Ausgabe von langem Output. Es ist somit notwendig, durch Drücken der Taste `f` in der Ausgabe weiter zu scrollen. Alternativ kann dieses Verhalten auch abgestellt werden, in dem man direkt nach dem Öffnen der Octave-App den Command `more on` ausführt.
+> Beachte: Octave limitiert die Ausgabe von langem Output auf wenige Zeilen. Es ist somit notwendig, durch Drücken der Taste `f` in der Ausgabe weiter zu scrollen. Alternativ kann dieses Verhalten auch abgestellt werden, in dem man nach dem Öffnen der Octave-App den Command `more on` ausführt.
 
 <img src="src\D_10_nach_DotDemo_CommandWindow.jpg" alt="14_nach_DotDemo_CommandWindow" align=center width="650"  />
 
@@ -262,9 +263,9 @@ Dies wiederholen wir solange, bis alle Trials für einen einzelnen Kohärenzwert
 
 Nach Durchführen aller Trials sollten wir folgende **Ergebnismatrix** im Command Window angezeigt bekommen. Diese ist folgendermaßen aufgebaut:
 
-* *Angabe korrekt/falsch* (linke Spalte): dies ist die wichtigste Spalte. Hier wird für jeden Trial angezeigt, ob die wahre Bewegungsrichtung der Punkte von der Versuchsperson richtig (1) oder falsch (0) erkannt wurde. 
-* *Relative Kohärenz* (mittlere Spalte): hier wird für jeden Trial die relative Kohärenz als Dezimalzahl angegeben. Dieser Wert sollte über alle Trials konstant bleiben.
-* *Antwortdauer [in Sekunden]* (rechte Spalte): hier wird die Zeit abgetragen, die nach der Präsentation des Trials bis zur Antwort der Versuchsperson (Drücken der Taste `b` oder `g`) verstrichen ist.
+* *Angabe korrekt/falsch* (linke Spalte): dies ist für uns die wichtigste Spalte. Hier wird für jeden Trial angezeigt, ob die wahre Bewegungsrichtung der Punkte von der Versuchsperson richtig (`1`) oder falsch (`0`) erkannt wurde. 
+* *Relative Kohärenz* (mittlere Spalte): hier wird für jeden Trial die relative Kohärenz als Dezimalzahl angegeben, z.B. `0.5` für 50 % Kohärenz. Dieser Wert entspricht unserem Eingabewert und sollte über alle Trials konstant bleiben.
+* *Antwortdauer [in Sekunden]* (rechte Spalte): hier wird die Zeit abgetragen, die nach der Präsentation des Trials bis zur Antwort der Versuchsperson (d.h. nach Drücken der Taste `b` oder `g`) verstrichen ist.
 
 <img src="src\D_11_ErgebnisMatrix.jpg" alt="15_ErgebnisMatrix" align=center width="650"  />
 
@@ -272,29 +273,35 @@ Nach Durchführen aller Trials sollten wir folgende **Ergebnismatrix** im Comman
 
 <br/>
 
+> **Beachte:**
+>
+> Alle angegeben Schritte sind **für jeden der acht Kohärenzwert** (0%, 5%, 10%, 15%, 20%, 30%, 40%, 50%) **in zufälliger Reihenfolge** (z.B. 10%, 30%, 20%, 50%, 0%, 15%, 5%, 40%) zu wiederholen!
+
+
+
 ## 4. Ergebnisse
 
-Die Ergebnisse werden nach jedem erfolgreichen Abschluss des Commands `DotDemo_2019` in einer separaten Text-Datei (.txt) gespeichert. Alle Text-Dateien befinden sich im selben Ordnerpfad wie auch das Script *DotDemo_2019.m* . Benannt sind diese wie im folgenden Beispiel: 
+Die Ergebnisse werden nach jedem erfolgreichen Abschluss des Commands `DotDemo_2020` in einer separaten Text-Datei (.txt) gespeichert. Alle Text-Dateien befinden sich im selben Ordnerpfad `home/dj0/octave` und sind wie im folgenden Beispiel benannt: 
 
-`Not_adaptive_moving_dot_Gruppe1_ManfredMustermann_0.5_Kohaerenz_20_Apr_2020_14_00_00.txt`
-
-
-
-Die Ergebnisse lassen sich nach Abschluss aller Experimente in einem Office-Programm wie z.B. Excel oder LibreOffice weiter verarbeiten. Im Folgenden wird gezeigt, wie die Ergebnisse in LibreOffice Calc eingefügt werden. Dazu sind folgende Schritte notwendig:
-
-* Ergebnismatrix aus einer der Text-Dateien oder direkt aus dem Octave Command Window kopieren, z.B. mit Tastenkombination [STR]+[C] 
-* LibreOffice Calc im Applications Menu öffnen
-* Ergebnisse einfügen, z.B. mit Tastenkombination [STR]+[V] 
-* Im Menü *Text Import*  die im Bild gezeigten Einstellungen verwenden
+`Not_adaptive_moving_dot_Gruppe1_MaxMustermann_0.5_Kohaerenz_27_Apr_2020_9_35_46.txt`
 
 
 
-<img src="src\E_01_LibreOffice-Calc_starten.jpg" alt="E_17_LibreOffice-Calc_starten" align=center width="650"/> 	
+<img src="src\E_01_Ergebnis-txt_a.jpg" alt="E_01_Ergebnis-txt_a" align=center width="650" />
 
-<img src="src\E_02_LibreOffice-Calc_Oberfläche.jpg" alt="E_02_LibreOffice-Calc_Oberfläche" align=center width="650" />
+<img src="src\E_01_Ergebnis-txt_b.jpg" alt="E_01_Ergebnis-txt_b" align=center width="650" />
+
+<br/>
+
+Die Ergebnisse lassen sich nach Abschluss aller Experimente auf einen **USB-Stick speichern** und in einem beliebigen **Office-Programm** (z.B. Excel oder LibreOffice) auf dem eigenen PC weiter verarbeiten. Im Folgenden wird gezeigt, wie die Ergebnisse in LibreOffice Calc eingefügt werden. Dazu sind folgende Schritte notwendig:
+
+* Ergebnismatrix aus einer der Text-Dateien kopieren, z.B. mit Tastenkombination [STRG]+[C] 
+* Ergebnisse in Libre Office Calc einfügen, z.B. mit Tastenkombination [STRG]+[V] 
+* Im Menü *Text Import*  die im Bild gezeigten Einstellungen verwenden. Damit werden die einzelnen Ergebnisse gleichmäßig in Spalten aufgeteilt.
+
+
 
 <img src="src\E_03_Ergebnismatrix_einfügen.jpg" alt="E_03_Ergebnismatrix_einfügen" align=center width="650" />
-
 
 <br/>
 
@@ -306,19 +313,13 @@ Es sollten nun die Ergebnisse in drei Spalten aufgeteilt worden sein. Der Vollst
 
 <br/>
 
-Gespeichert werden kann die Tabelle dann mit [STR]+[S] oder wie im folgenden Bild per Menü:
 
-<img src="src\E_05_Speichern-Ergebnisse.jpg" alt="E_05_Speichern-Ergebnisse" align=center width="650"  />
-
-
-
-<br/>
 
 ## 5. Abschluss
 
-> **BITTE DRINGEND BEACHTEN**
+> **BITTE DRINGEND BEACHTEN!**
 >
-> Wenn die VirtualBox geschlossen werden soll, dann im Fenster "Beenden der virtuellen Maschine" unbedingt den Punkt "**den Zustand der virtuellen Maschine speichern**" auswählen. Andernfalls wird das Image zurückgesetzt und alle Ergebnisse sind nicht mehr verfügbar.
+> Wenn die VirtualBox geschlossen werden soll, dann im Fenster "Beenden der virtuellen Maschine" unbedingt den Punkt "**den Zustand der virtuellen Maschine speichern**" auswählen. Andernfalls wird das Image auf den Ursprungszustand zurückgesetzt und alle Ergebnisse sind nicht mehr verfügbar.
 
 
 
@@ -330,28 +331,22 @@ Gespeichert werden kann die Tabelle dann mit [STR]+[S] oder wie im folgenden Bil
 
 Anbei noch einmal eine Zusammenfassung der wesentlichen Schritte:
 
-* Image-Datei (.iso) in Moodle herunterladen
-
+* Bereitgestellte Image-Datei (.iso) herunterladen
 * Auf eigenem Rechner das Programm *Oracle VM VirtualBox Manager* installieren
-
 * In Virtual Box: virtuelle Maschine erstellen, Image-datei (.iso) einladen und starten
-
 * In Ubuntu: App "GNU Octave" öffnen
+* In Octave File-Manager zum Ordnerpfad des Scripts *DotDemo_2020.m* navigieren. Das Script an sich muss nicht geöffnet werden.
+  Pfad: `home/dj0/octave`
+* Folgende Schritte **für jeden der acht Kohärenzwert** (0%, 5%, 10%, 15%, 20%, 30%, 40%, 50%) wiederholen **in zufälliger Reihenfolge** (z.B. 10%, 30%, 20%, 50%, 0%, 15%, 5%, 40%):
 
-* In Octave File-Manager zum Ordnerpfad des Scripts *DotDemo_2019.m* navigieren. Das Script an sich muss aber nicht geöffnet werden.
-  Pfad: `home/dj0/Desktop/BB 26 (2019)/Psychophysik/Psychophysic Toolbox [2019]`
+  1. Im Octave Command Window den Befehl `DotDemo_2020` ausführen
 
-* Folgende Schritte **für jeden der acht Kohärenzwert** (0%, 5%, 10%, 15%, 20%, 30%, 40%, 50%) wiederholen, am besten in zufälliger Reihenfolge (z.B. 10%, 30%, 20%, 50%, 0%, 15%, 5%, 40%):
-
-  1. Im Command Window den Befehl `DotDemo_2019` ausführen
-
-  2. Gruppennummer, Namen, Kohärenzwert und Anzahl der Trials (n=20) festlegen und mit `y` bestätigen
+  2. Gruppennummer, Namen, Kohärenzwert und Anzahl der Trials (20 Trials pro Kohärenzwert) festlegen und mit `y` bestätigen
 
   3. Experiment durchführen, bis alle Trials für den ausgewählten Kohärenzwert abgeschlossen wurden
 
   4. Mit nächstem Kohärenzwert weitermachen
-
-* Ergebnisse werden nach jedem Trial automatisch im selben Ordnerpfad als .txt-Datei gespeichert. Diese können dann zur weiteren Verarbeitung in einem Office-Programm wie Excel oder LibreCalc genutzt werden.
-
-* **WICHTIG**
+* Ergebnisse werden nach jedem Trial automatisch im selben Ordnerpfad als .txt-Datei gespeichert. Diese können dann zur weiteren Verarbeitung auf einen USB-Stick gespeichert und in einem beliebigen Office-Programm wie Excel oder LibreCalc weiter verarbeitet werden.
+* **WICHTIG!**
   Wenn die VirtualBox geschlossen werden soll, dann im Fenster "Beenden der virtuellen Maschine" unbedingt den Punkt "**den Zustand der virtuellen Maschine speichern**" auswählen. Andernfalls wird das Image zurückgesetzt und alle Ergebnisse sind nicht mehr verfügbar.
+
