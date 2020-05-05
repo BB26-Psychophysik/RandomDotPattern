@@ -20,10 +20,8 @@ Bitte laden Sie zunächst die **Image-Datei** (.iso) herunter. Entsprechender Li
 
 ### 2.1 Oracle VM VirtualBox Manager 
 
-Als Software wird für dieses Psychophysik-Experiment lediglich der *Oracle VM VirtualBox Manager* benötigt 
-
-- im Folgenden als *VirtualBox* bezeichnet. 
-  Dies ist ein praktisches Open Source-Tool, mit dem weitere Betriebssysteme in einer virtuellen Umgebung auf dem PC geladen werden können. So lässt sich auch unser bereitgestelltes **Image** (.iso) verwenden, in welchem bereits alle notwendigen Treiber & Software für die BB26-Versuche enthalten sind.
+Als Software wird für dieses Psychophysik-Experiment lediglich der *Oracle VM VirtualBox Manager* benötigt. 
+Dies ist ein praktisches Open Source-Tool, mit dem weitere Betriebssysteme in einer virtuellen Umgebung auf dem PC geladen werden können. So lässt sich auch unser bereitgestelltes **Image** (.iso) verwenden, in welchem bereits alle notwendigen Treiber & Software für die BB26-Versuche enthalten sind.
 
 
 
@@ -337,7 +335,9 @@ Die Ergebnisse werden nach jedem erfolgreichen Abschluss des Commands `DotDemo_2
 
 <br/>
 
-Die Ergebnisse lassen sich nach Abschluss aller Experimente auf einen **USB-Stick speichern** und in einem beliebigen **Office-Programm** (z.B. Excel oder LibreOffice) auf dem eigenen PC weiter verarbeiten. Im Folgenden wird gezeigt, wie die Ergebnisse in LibreOffice Calc eingefügt werden. Dazu sind folgende Schritte notwendig:
+Die Ergebnisse lassen sich nach Abschluss aller Experimente auf einem **USB-Laufwerk speichern**. Nach dem Einlegen sollte auf dem Ubuntu-Desktop ein entsprechendes Icon erscheinen. Klicken Sie doppelt auf dieses, um das Laufwerk im Explorer zu öffnen. Die Textdateien lassen sich dann wie gewohnt auf das Laufwerk kopieren, z.B. mittels Drag&Drop.
+
+In einem beliebigen **Office-Programm** (z.B. Excel oder LibreOffice) lassen sich die Textdateien auf dem eigenen PC weiter verarbeiten. Im Folgenden wird gezeigt, wie die Ergebnisse in LibreOffice Calc eingefügt werden. Dazu sind folgende Schritte notwendig:
 
 * Ergebnismatrix aus einer der Text-Dateien kopieren, z.B. mit Tastenkombination [STRG]+[C] 
 * Ergebnisse in Libre Office Calc einfügen, z.B. mit Tastenkombination [STRG]+[V] 
