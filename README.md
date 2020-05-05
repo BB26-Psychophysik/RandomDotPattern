@@ -14,7 +14,7 @@ Dazu verwenden wir als Stimuli sogenannte **Random Dot Pattern**.  Dies sind zuf
 
 ## 2 Verwendete Software
 
-Bitte laden Sie zunächst die **Image-Datei** (.iso) herunter, welche von den BB26-Betreuern bereitgestellt wurde.
+Bitte laden Sie zunächst die **Image-Datei** (.iso) herunter. Entsprechender Link wird von den BB26-Betreuern bereitgestellt.
 
 <br/>
 
@@ -29,8 +29,9 @@ Als Software wird für dieses Psychophysik-Experiment lediglich der *Oracle VM V
 
 #### 2.2.1 Download
 
-VirtualBox ist für Windows/Mac/Linux unter folgendem Link verfügbar :
+VirtualBox ist für Windows/Mac/Linux verfügbar. Bitte laden Sie entsprechende **Installationsdatei** und außerdem das **Extension Pack** herunter. Beide Dateien finden Sie unter folgendem Link:
 https://www.virtualbox.org/wiki/Downloads
+
 
 <img src="src\A_01_VirtualBox_Download.jpg" alt="A_01_VirtualBox_Download" align=center width="600"/>
 
@@ -57,7 +58,7 @@ Nach dem Download gestaltet sich die **Installation** sehr einfach, die **Vorein
 
 #### 2.2.3 Erstellen einer Virtuellen Maschine
 
-Um unser Image nun laden zu können, müssen wir in VirtualBox zunächst eine virtuelle Maschine - quasi ein "virtueller Computer" - erzeugen. Dafür einfach auf den Button **"Neu"** klicken.
+Um unser Image nun laden zu können, müssen wir in VirtualBox zunächst eine virtuelle Maschine erzeugen. Dafür einfach auf den Button **"Neu"** klicken.
 
 <img src="src\B_01_Neu.jpg" alt="B_01_Neu" align=center width="600" />
 
@@ -96,19 +97,50 @@ Damit ist nun unsere virtuelle Maschine fertig. Wenn alles funktioniert hat, sol
 
 <img src="src\B_04_Image_laden_b.jpg" alt="B_04_Image_laden_b" align=center width="600" />
 
+<br/> 
 
 
+#### 2.2.4 VirtualBox Expansion Pack
+
+Um im virtuellen Betriebssystem auch eine **USB-Anbindung** für das Speichern der Experimental-Ergebnisse nutzen zu können, muss das **Virtual Box Extension Pack** installiert werden.
+Klicken Sie im Menü "Datei" auf den Unterpunkt "Einstellungen". 
+
+<img src="src\B_04_Datei_Einstellungen.jpg" alt="B_04_Datei_Einstellungen" align=center width="600" />
+
+<br/> 
+
+
+Anschließend wählen Sie auf der linken Seite den Punkt "Zusatzpakete".
+Fügen Sie die heruntergeladene Expansion Pack-Datei mithilfe des "+"-Buttons rechts hinzu.
+<img src="src\B_04_Zusatzpakete.jpg" alt="B_04_Zusatzpakete" align=center width="600" />
+
+<br/> 
+
+Nun startet die Installation. 
+<img src="src\B_04_Installation_Extension_a.jpg" alt="B_04_Installation_Extension_a" align=center width="600" />
+<img src="src\B_04_Installation_Extension_b.jpg" alt="B_04_Installation_Extension_b" align=center width="600" />
+
+<br/> 
+
+
+Wählen Sie danach unsere virtuelle Maschine aus und klicken Sie auf "Ändern...".
+<img src="src\B_04_Aendern.jpg" alt="B_04_Aendern" align=center width="600" />
+
+<br/> 
+
+Gehen Sie im linken Bereich auf den Punkt "USB" und drücken Sie rechts auf den obersten Button "Leeren Filter hinzufügen".
+<img src="src\B_04_Leerer_USB_Filter_a.jpg" alt="B_04_Leerer_USB_Filter_a" align=center width="600" />
+<img src="src\B_04_Leerer_USB_Filter_b.jpg" alt="B_04_Leerer_USB_Filter_b" align=center width="600" />
 <br/>
+Abschließend mit OK bestätigen. 
+
+### 2.3 Ubuntu
 
 Um die virtuelle Maschine zu starten, klicken wir oben rechts auf den Button **"Start"**.
 
 <img src="src\B_05_Image_starten.jpg" alt="B_05_Image_starten" align=center width="600" />
 
-
-
 <br/>
-
-### 2.2 Ubuntu
 
 Das virtuelle Betriebssystem wird nun automatisch hochgefahren. Alternativ kann im Bootmenü der Unterpunkt **"live"** ausgewählt werden. 
 
@@ -142,7 +174,7 @@ Nach kurzer Wartezeit erscheint dann der Desktop. Hier können wir doppelt auf d
 
 <br/>
 
-### 2.3 Octave
+### 2.4 Octave
 
 Um die bewegten visuellen Stimuli zu erstellen, benutzen wir in diesem Experiment die Analysesoftware *Octave*. Wir müssen zum Glück nicht alles von Hand neu programmieren, sondern können auf bereits vorgeschriebene Funktionen und Funktionen der *Psychtoolbox* (www.psychtoolbox.org) zurückgreifen, welche ebenfalls bereits in unserem BB26-Image enthalten sind.
 
@@ -349,4 +381,3 @@ Anbei noch einmal eine Zusammenfassung der wesentlichen Schritte:
 * Ergebnisse werden nach jedem Trial automatisch im selben Ordnerpfad als .txt-Datei gespeichert. Diese können dann zur weiteren Verarbeitung auf einen USB-Stick gespeichert und in einem beliebigen Office-Programm wie Excel oder LibreCalc weiter verarbeitet werden.
 * **WICHTIG!**
   Wenn die VirtualBox geschlossen werden soll, dann im Fenster "Beenden der virtuellen Maschine" unbedingt den Punkt "**den Zustand der virtuellen Maschine speichern**" auswählen. Andernfalls wird das Image zurückgesetzt und alle Ergebnisse sind nicht mehr verfügbar.
-
