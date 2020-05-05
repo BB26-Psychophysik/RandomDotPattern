@@ -105,31 +105,41 @@ Damit ist nun unsere virtuelle Maschine fertig. Wenn alles funktioniert hat, sol
 Um im virtuellen Betriebssystem auch eine **USB-Anbindung** für das Speichern der Experimental-Ergebnisse nutzen zu können, muss das **Virtual Box Extension Pack** installiert werden.
 Klicken Sie im Menü "Datei" auf den Unterpunkt "Einstellungen". 
 
+
+
 <img src="src\B_04_Datei_Einstellungen.jpg" alt="B_04_Datei_Einstellungen" align=center width="600" />
+
+
 
 <br/> 
 
-
 Anschließend wählen Sie auf der linken Seite den Punkt "Zusatzpakete".
 Fügen Sie die heruntergeladene Expansion Pack-Datei mithilfe des "+"-Buttons rechts hinzu.
+
 <img src="src\B_04_Zusatzpakete.jpg" alt="B_04_Zusatzpakete" align=center width="600" />
 
 <br/> 
 
 Nun startet die Installation. 
-<img src="src\B_04_Installation_Extension_a.jpg" alt="B_04_Installation_Extension_a" align=center width="600" />
+
+
+
 <img src="src\B_04_Installation_Extension_b.jpg" alt="B_04_Installation_Extension_b" align=center width="600" />
 
 <br/> 
 
-
 Wählen Sie danach unsere virtuelle Maschine aus und klicken Sie auf "Ändern...".
+
 <img src="src\B_04_Aendern.jpg" alt="B_04_Aendern" align=center width="600" />
 
 <br/> 
 
 Gehen Sie im linken Bereich auf den Punkt "USB" und drücken Sie rechts auf den obersten Button "Leeren Filter hinzufügen".
+
+
+
 <img src="src\B_04_Leerer_USB_Filter_a.jpg" alt="B_04_Leerer_USB_Filter_a" align=center width="600" />
+
 <img src="src\B_04_Leerer_USB_Filter_b.jpg" alt="B_04_Leerer_USB_Filter_b" align=center width="600" />
 <br/>
 Abschließend mit OK bestätigen. 
@@ -137,6 +147,8 @@ Abschließend mit OK bestätigen.
 ### 2.3 Ubuntu
 
 Um die virtuelle Maschine zu starten, klicken wir oben rechts auf den Button **"Start"**.
+
+
 
 <img src="src\B_05_Image_starten.jpg" alt="B_05_Image_starten" align=center width="600" />
 
