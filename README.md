@@ -398,7 +398,7 @@ Anbei noch einmal eine Zusammenfassung der wesentlichen Schritte:
 
 ## 7. Frequently Asked Questions (FAQ)
 
-**Q: *Beim Starten des virtuellen Betriebssystems tritt ein Fehler auf. Die Fehlermeldung beinhaltet einen der folgenden Begriffe: VT-x, VT-d, AMD-V, Virtualisierung. Beispiel: "VT-x is disabled in the BIOS for all CPU modes".**
+**Q: Beim Starten des virtuellen Betriebssystems tritt ein Fehler auf. Die Fehlermeldung beinhaltet einen der folgenden Begriffe: VT-x, VT-d, AMD-V, Virtualisierung. Beispiel: "VT-x is disabled in the BIOS for all CPU modes".**
 
 **A:** Dies liegt an einer deaktivierten **Virtualisierungs-Einstellung** eures Rechners. 
 Bei vielen neueren PCs ist diese von Vorneherein aktiviert. In Windows kann dies im Task Manager überprüft werden. Dazu [STR]+[ALT]+[ENTF] (bzw. noch besser: [STR]+[SHIFT]+[ESCAPE]) drücken. Im Task Manager auf den Reiter "Leistung" klicken und links auf "CPU". Rechts sollte nun unter "Virtualisierung" bestenfalls "Aktiviert" stehen, wie z.B. in folgendem Bild: 
