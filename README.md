@@ -393,3 +393,21 @@ Anbei noch einmal eine Zusammenfassung der wesentlichen Schritte:
 * Ergebnisse werden nach jedem Trial automatisch im selben Ordnerpfad als .txt-Datei gespeichert. Diese können dann zur weiteren Verarbeitung auf einen USB-Stick gespeichert und in einem beliebigen Office-Programm wie Excel oder LibreCalc weiter verarbeitet werden.
 * **WICHTIG!**
   Wenn die VirtualBox geschlossen werden soll, dann im Fenster "Beenden der virtuellen Maschine" unbedingt den Punkt "**den Zustand der virtuellen Maschine speichern**" auswählen. Andernfalls wird das Image zurückgesetzt und alle Ergebnisse sind nicht mehr verfügbar.
+
+
+
+## 7. Frequently Asked Questions (FAQ)
+
+**Q: Beim Starten des virtuellen Betriebssystems tritt ein Fehler auf. Die Fehlermeldung beinhaltet einen der folgenden Begriffe: VT-x, VT-d, AMD-V, Virtualisierung. Beispiel: "VT-x is disabled in the BIOS for all CPU modes".**
+
+**A:** Dies liegt an einer deaktivierten **Virtualisierungs-Einstellung** eures Rechners. 
+Bei vielen neueren PCs ist diese von Vorneherein aktiviert. In Windows kann dies im Task Manager überprüft werden. Dazu [STR]+[ALT]+[ENTF] (bzw. noch besser: [STR]+[SHIFT]+[ESCAPE]) drücken. Im Task Manager auf den Reiter "Leistung" klicken und links auf "CPU". Rechts sollte nun unter "Virtualisierung" bestenfalls "Aktiviert" stehen, wie z.B. in folgendem Bild: 
+
+<img src="src\FAQ_TaskManager_Virtualisierung.jpg" alt="FAQ_TaskManager_Virtualisierung" align=center width="450" />
+
+Sollte das nicht der Fall sein, muss diese Einstellung im BIOS bzw. UEFI aktiviert werden. 
+Wie ihr an eurem Rechner in das BIOS / UEFI Menü gelangt, ist von System zu System unterschiedlich - dazu könnt ihr die Google-Suche bemühen (z.B. "Lenovo Ideapad Bios"). 
+Seid ihr erst einmal im BIOS / UEFI angelangt, müsst ihr in den Security-Einstellungen (bzw. CPU-Einstellungen) nach einem Unterpunkt suchen, der die Begriffe "Virtualisierung", "VT-x", "VT-d", oder "AMD-v" beinhaltet. Diese Einstellung muss aktiviert werden, damit ihr VirtualBox ohne Fehler ausführen könnt. Nachdem ihr die Virtualisierung im BIOS Menü aktiviert habt, speichert ihr die Änderungen und startet den Rechner neu. 
+Eine ausführlichere Anleitung findet ihr unter folgendem Link: 
+https://support.bluestacks.com/hc/de/articles/115003174386-Wie-kann-ich-Virtualisierung-VT-auf-meinem-PC-aktivieren-#%E2%80%9C3%E2%80%9D
+
